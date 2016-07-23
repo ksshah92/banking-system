@@ -1,6 +1,6 @@
 /******************************************************************************
-*	Program Author:Kaushal Shah for CSCI 6810 Java and the Internet	 			  *
-*	Date: October, 2014														  *
+*	Name: Kaushal Shah for CSCI 6810 Java and the Internet	 			  *
+*	Date: October, 2015
 *******************************************************************************/
 
 import java.lang.*;
