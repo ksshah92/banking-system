@@ -102,43 +102,16 @@ class VEDPaymentBO extends JFrame
 		        }
     			});
 
-
-
-
-
-		/////////
-
 	}
-					/*
-							public void actionPerformed(ActionEvent evt)  //event handling
-								    {
-										String arg = evt.getActionCommand();
-										//PyID = PaymentIDField.getText();
+	
+	class ButtonRenderer extends JButton implements TableCellRenderer{
+
+	    public ButtonRenderer() {
+	        setOpaque(true);
+	    }
 
 
-									    if(arg.equals("Delete") ){
-
-									  		dispose();
-									  		PaymentControl pc = new PaymentControl(arg, UsrName);
-
-									  }
-
-									  else{
-
-									  		JOptionPane.showMessageDialog(null, "Enter Payment ID.\nYou can see Payment ID in View Scheduled Payment(s).", "Help", JOptionPane.INFORMATION_MESSAGE);
-									  }
-								  }
-
-							*/
-
-		class ButtonRenderer extends JButton implements TableCellRenderer{
-
-			    public ButtonRenderer() {
-			        setOpaque(true);
-			    }
-
-
-	    public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column){
+	public Component getTableCellRendererComponent(JTable table, Object value, boolean isSelected, boolean hasFocus, int row, int column){
 
 
 	        if (isSelected) {
