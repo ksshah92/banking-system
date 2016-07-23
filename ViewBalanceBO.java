@@ -1,5 +1,5 @@
 /******************************************************************************
-*	Name: Dhaval Banugaria for CSCI 6810 Java and the Internet	 			  *
+*	Program Author:Kaushal Shah for CSCI 6810 Java and the Internet	 			  *
 *	Date: October, 2014														  *
 *******************************************************************************/
 
